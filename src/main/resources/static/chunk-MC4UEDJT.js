@@ -1,0 +1,1 @@
+var t=[{valeur:"HOTEL",libelle:"H\xF4tel"},{valeur:"RESORT",libelle:"Resort"},{valeur:"MAISON_HOTES",libelle:"Maison d'h\xF4tes"},{valeur:"APPART_HOTEL",libelle:"Appart-h\xF4tel"}];function r(e){return t.find(l=>l.valeur===e)?.libelle??"-"}export{t as a,r as b};

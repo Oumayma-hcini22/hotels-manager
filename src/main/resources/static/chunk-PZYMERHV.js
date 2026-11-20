@@ -1,0 +1,1 @@
+import{C as t,s as o}from"./chunk-LKRUWOGV.js";var a=class n{demande=t(null);demander(e,r,i="Supprimer"){return new Promise(d=>this.demande.set({titre:e,message:r,texteBouton:i,repondre:d}))}repondre(e){this.demande()?.repondre(e),this.demande.set(null)}static \u0275fac=function(r){return new(r||n)};static \u0275prov=o({token:n,factory:n.\u0275fac,providedIn:"root"})};export{a};
